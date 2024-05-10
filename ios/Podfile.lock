@@ -935,6 +935,8 @@ PODS:
   - React-Mapbuffer (0.74.0):
     - glog
     - React-debug
+  - react-native-voice (3.2.4):
+    - React-Core
   - React-nativeconfig (0.74.0)
   - React-NativeModulesApple (0.74.0):
     - glog
@@ -1199,6 +1201,7 @@ DEPENDENCIES:
   - React-jsitracing (from `../node_modules/react-native/ReactCommon/hermes/executor/`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
+  - "react-native-voice (from `../node_modules/@react-native-voice/voice`)"
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1290,6 +1293,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   React-Mapbuffer:
     :path: "../node_modules/react-native/ReactCommon"
+  react-native-voice:
+    :path: "../node_modules/@react-native-voice/voice"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1370,6 +1375,7 @@ SPEC CHECKSUMS:
   React-jsitracing: 36a2bbc272300313653d980de5ab700ec86c534a
   React-logger: 03f2f7b955cfe24593a2b8c9705c23e142d1ad24
   React-Mapbuffer: 5e05d78fe6505f4a054b86f415733d4ad02dd314
+  react-native-voice: f5e8eec2278451d0017eb6a30a6ccc726aca34e0
   React-nativeconfig: 951ec32f632e81cbd7d40aebb3211313251c092e
   React-NativeModulesApple: 0b3a42ca90069119ef79d8b2327d01441d71abd4
   React-perflogger: 271f1111779fef70f9502d1d38da5132e5585230
@@ -1398,4 +1404,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 7ae0b4ce15399e5ec4fcd15c5369f846e5d318f5
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
